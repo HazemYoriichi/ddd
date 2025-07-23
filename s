@@ -615,13 +615,13 @@ end
 
 local MultiDropdown = Tabs.Esp:AddDropdown("MultiDropdown", {
     Title = "الكشف",
-    Values = {"سيكرت", "براينروت جود", "الميثك", "اللجندري", "اللاعبين", "القفل",},"Lock", "Players", "Legendary", "Mythic", "Brainrot God", "Secret"
+    Values = {"Lock", "Players", "Legendary", "Mythic", "Brainrot God", "Secret",}
     Multi = true,
     Default = {},
 })
 
 MultiDropdown:OnChanged(function(Value)
-    if Value["اللاعبين"] then
+    if Value["Player"] then
         toggleESP(true)
     else
         toggleESP(false)
