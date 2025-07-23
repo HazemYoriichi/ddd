@@ -19,7 +19,7 @@ local Tabs = {
     Updates = Window:AddTab({ Title = "معلومات عننا", Icon = "crown" }),
     Main = Window:AddTab({ Title = "السرقه", Icon = "home" }),
     Player = Window:AddTab({ Title = "اللاعب", Icon = "user" }),
-    Esp = Window:AddTab({ Title = "", Icon = "person-standing" }),
+    Esp = Window:AddTab({ Title = "الكشف", Icon = "person-standing" }),
     Buy = Window:AddTab({ Title = "المتجر", Icon = "shopping-bag" }),
     Server = Window:AddTab({ Title = "الخادم", Icon = "server" }),
     Settings = Window:AddTab({ Title = "الاعدادات", Icon = "settings" }),
